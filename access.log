@@ -4179,3 +4179,8 @@ GET /clinics 304 - - 104.697 ms
 GET /medicines 403 1534 - 8.256 ms
 POST /login 200 230 - 4.909 ms
 GET /medicines 200 642 - 25.760 ms
+GET /medicines 200 642 - 26.699 ms
+GET /medicines?_id=9 403 1584 - 5.334 ms
+POST /login 200 230 - 2.096 ms
+GET /medicines 200 642 - 6.714 ms
+GET /medicines?_id=9 200 62 - 44.868 ms
